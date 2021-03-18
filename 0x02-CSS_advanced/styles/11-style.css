@@ -30,16 +30,16 @@ a
 {
     color: var(--color-primary);
 }
+.section-header
+{
+    text-align: var(--section-header-align) ;
+}
 .section-tagline
 {
     color: var(--color-primary);
     font-family: var(--font-family-title);
     text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
-}
-.section-header
-{
-    text-align: var(--section-header-align) ;
 }
 :root{
     --color-primary: #d73953;
