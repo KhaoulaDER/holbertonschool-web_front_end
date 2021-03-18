@@ -30,13 +30,13 @@ a
 {
     color: var(--color-primary);
 }
-.section-tagline
-{
-    color: var(--color-primary);
-}
 .section-header
 {
     text-align: var(--section-header-align) ;
+}
+.section-tagline
+{
+    color: var(--color-primary);
 }
 :root{
     --color-primary: #d73953;
