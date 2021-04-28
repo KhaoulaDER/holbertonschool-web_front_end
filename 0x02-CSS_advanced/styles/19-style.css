@@ -197,7 +197,7 @@ ul.row
 {
     padding: var(--footer-padding);
 }
-.footer .ul
+.footer ul
 {
     text-align: right;
 }
