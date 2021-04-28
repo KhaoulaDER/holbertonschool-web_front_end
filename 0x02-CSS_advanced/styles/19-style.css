@@ -43,7 +43,7 @@ a:active
 {
     background-color: var(--color-light-grey);
 }
-ul.row
+ul .row
 {
     margin: 0;
     padding: 0;
