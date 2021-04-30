@@ -177,7 +177,7 @@ ul.row
     width: 0;
     height: 0.2rem;
 }
-.nav .nav-link::after
+.nav .nav-item:hover .nav-link::after
 {
     background-color: var(--color-primary);
     width: 1em;
