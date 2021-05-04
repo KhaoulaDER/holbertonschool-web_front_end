@@ -8,7 +8,7 @@ Sass file that assigns:
 @mixin margin($property) 
 {
     margin-left: $property;
-    margin-left: $property;
+    margin-right: $property;
 }
 body 
 {
