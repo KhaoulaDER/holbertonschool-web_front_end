@@ -12,6 +12,6 @@ You must use a @for statement
 {
     .col-#{$i}
     {
-        width: 100 / $i;
+        width: 100% / $i;
     }    
 }
