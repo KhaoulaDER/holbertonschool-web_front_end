@@ -1,0 +1,20 @@
+/*
+Sass file that assigns:
+
+- Margin left and right at 10px to body tags
+- Margin left and right at 15px to div tags
+- You must use a mixin
+*/ 
+@mixin margin($property) 
+{
+    margin-left: $property;
+    margin-left: $property;
+}
+body 
+{
+    @include margin(10px);
+}
+div 
+{
+    @include margin(15px); 
+}
