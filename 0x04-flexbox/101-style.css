@@ -1,0 +1,59 @@
+:root {
+    --custom-box1: #00e04f;
+    --custom-box2: #30b5dc;
+    --custom-box3: #32285d;
+    --custom-box4: #dd0ceb;
+    --custom-box5: #eb920c;
+}
+.container {
+    width: 1400px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;   
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.box {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.box1, .box5 {
+    width: 10%;
+    height: 50%; 
+    font-size: 1.5rem;  
+}
+
+.box2, .box4 {
+    width: 20%;
+    height: 70%;
+    font-size: 2.5rem;  
+}
+
+.box1 {
+    background-color: var(--custom-box1) ;
+}
+
+.box2 {
+    background-color: var(--custom-box2);
+}
+
+.box4 {
+    background-color: var(--custom-box4);
+}
+
+.box5 {
+    background-color: var(--custom-box5);
+}
+
+.box3 {
+    width: 30%;
+    height: 100%;   
+    background-color: var(--custom-box3);
+    font-size: 3.5rem;
+}
