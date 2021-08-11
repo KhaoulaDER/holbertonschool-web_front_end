@@ -1,0 +1,18 @@
+/* Assigns margins */
+@mixin margin_10px {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+@mixin margin_15px {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+body {
+  @include margin_10px;
+}
+
+div {
+  @include margin_15px;
+}

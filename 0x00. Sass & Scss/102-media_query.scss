@@ -1,0 +1,19 @@
+/* Assigns font and text color according to screen size. */
+$screen-size: 1280px;
+$font-size: 20px;
+
+h1 {
+  font-size: $font-size;
+
+  @for $i from 1 to 4 {
+    @media screen and (max-width: $screen-size - 320px * $i) {
+      font-size: $font-size - 2px * $i;
+
+      @if $i == 3 {
+        &.small {
+          color: #1D1D1D;
+        }
+      }
+    }
+  }
+}
